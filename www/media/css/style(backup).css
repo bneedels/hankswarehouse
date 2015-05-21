@@ -1,0 +1,204 @@
+h1{
+	margin: 0 0 12px 0;
+	font-size: 14px;
+}
+h2{
+	margin: 0 0 12px 0;
+	font-size: 14px;
+}
+h2.latestnews{
+	background-color: #3b3b3c;
+	line-height: 42px;
+	background-image: url(../images/latestnews.gif);
+	background-repeat: no-repeat;
+	text-indent: -3000px;
+	overflow: hidden;
+	margin: 0 0 30px 0;
+	clear: left;
+}
+h3{
+	font-size: 18px;
+	margin: 0 0 18px 0;
+}
+p, div.p{
+	margin: 0 0 12px 0;
+}
+p.news{
+	border-bottom: 1px solid #c3bcb5;
+	padding-bottom: 25px;
+	margin: 0 0 25px 0; 
+}
+.clear{
+	clear: both;
+}
+.clear12{
+	clear: both;
+	height: 12px;
+	overflow: hidden;
+	font-size: 1px;
+	line-height: 1px;
+}
+#homelinks{
+	list-style: none;
+	margin: 0;
+	padding: 30px 0 0 0;
+	clear: left;
+}
+#homelinks li{
+	float: left;
+	padding-bottom: 30px;
+}
+#homelinks1{
+	padding-right: 20px;
+}
+#homelinks1 a{
+	display: block;
+	width: 300px;
+	height: 166px;
+	background-image: url(../images/shoponlinebanner.png);
+	text-indent: -3000px;
+	overflow: hidden;
+}
+#homelinks2{
+	padding-right: 20px;
+}
+#homelinks2 a{
+	display: block;
+	width: 300px;
+	height: 166px;
+	background-image: url(../images/youtube.png);
+	text-indent: -3000px;
+	overflow: hidden;
+}
+#homelinks3{
+	width: 300px;
+}
+#homelinks3 h2{
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
+#homelinks3 .image{
+	margin: 0 0 12px 0;
+}
+#brands{
+	float: left;
+	width: 460px;
+	height: 540px;
+	background-image: url(../images/brands.png);
+	text-indent: -3000px;
+	overflow: hidden;
+}
+#address{
+	float: left;
+	padding-left: 20px;
+	width: 460px;
+}
+#map{
+	margin: 0 0 10px 0;
+	clear: both;
+	padding-top: 6px;
+}
+.getdirections label{
+	font-weight: bold;
+	display: block;
+	margin: 0 0 3px 0;
+	font-size: 13px;
+}
+.getdirections input.txt{
+	border: 1px solid #d8d8d8;
+	width: 332px;
+	height: 20px;
+	padding: 2px 3px;
+	margin-right: 5px;
+}
+.getdirections input{
+	vertical-align: middle;
+}
+#hours h2{
+	color: #382c2c;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0 0 9px 0;
+	font-family: arial narrow;
+}
+#hours ul{
+	list-style: none;
+	margin: 0 0 25p 0;
+	padding: 0;
+	border-top: 1px solid #c3bcb5;
+	line-height: 25px;
+}
+#hours ul li{
+	display: block;
+	border-bottom: 1px solid #c3bcb5;
+}
+#hours ul li span{
+	font-weight: bold;
+	float: left;
+	width: 110px;
+	padding-left: 3px;
+}
+#hours ul li.closed{
+	color: #999999;
+}
+#hours address{
+	color: #999999;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#hours span.phone{
+	float: right;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/* starts necessary styles */
+.contactus label{
+	float: left;
+	width: 100px;
+	line-height: 22px;
+}
+.contactus label .required{
+	color: #ff0000;
+}
+.contactus .txt{
+	border: 1px solid #d8d8d8;
+	width: 500px;
+	padding: 2px 3px;
+}
+.contactus textarea.txt{
+	height: 150px;
+}
+.contactus .line{
+	clear: left;
+}
+.submit{
+	clear: left;
+	padding-left: 557px;
+}
+div.ss_error{
+	color: #EB340A;
+	background-image:url(../images/ss_error.gif);
+	background-repeat: no-repeat;
+	background-position: right 2px;
+	padding-right: 8px;
+	line-height: 12px;
+	position: absolute;
+	right: 3px;
+	top: -14px;
+	font-size: 11px;
+}
+.ss_reqbox, .ss_notreqbox{
+	padding: 3px;
+	margin: 0 0 15px 0;
+	position: relative;
+	display: inline;
+	float: left;
+}
+.ss_reqboxactive {
+	border: 1px solid #EB340A;
+	padding: 2px;
+}
+/* ends necessary styles */

@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Sample form for use with formmail.php</title>
+</head>
+<body>
+<p>This form demonstrates the use of formmail.php.
+<br />Note that formmail.php requires a one line change
+to work.  Use a text editor to read the information
+at the top of formmail.php.
+</p>
+<p>Also, you need to change this form using a text editor;
+follow the 4 simple steps shown in the comments.
+</p>
+<p>We've included sample fields to show you how to
+submit Checkboxes, Radio Buttons, Multi-selection
+List Boxes, normal Text fields, and Text Areas.
+</p>
+<p>
+For full information and support, visit
+<a href="http://www.tectite.com/">www.tectite.com</a>
+</p>
+<p></p>
+    <!-- STEP 1: Put the full URL to formmail.php on your website in the 'action' value. -->
+<form method="post" action="http://www.your_domain_name.com/formmail.php" name="SampleForm">
+    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER">
+    <!-- STEP 2: Put your email address in the 'recipients' value.
+                 Note that you also have to allow this email address in the
+                 $TARGET_EMAIL setting within formmail.php!
+    -->
+    <input type="hidden" name="recipients" value="you@your_domain_name.com" />
+    <!-- STEP 3: Specify required fields in the 'required' value -->
+    <input type="hidden" name="required" value="email:Your email address,realname:Your name" />
+    <!-- STEP 4: Put your subject line in the 'subject' value. -->
+    <input type="hidden" name="subject" value="Sample FormMail Testing" />
+
+    <table border="1" cellspacing="5%">
+    <tr>
+        <td>
+        <p>Please enter your name:</p>
+        </td>
+        <td><input type="text" name="realname" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <p>Please enter your email address:</p>
+        </td>
+        <td><input type="text" name="email" />
+        </td>
+    </tr>
+    <tr>
+        <td><p>May we contact you?</p>
+        </td>
+        <td>
+            Yes <input type="radio" name="contact" value="Y" checked />
+            No <input type="radio" name="contact" value="N" />
+         </td>
+    </tr>
+    <tr>
+        <td><p>What are your favourite colours?</p>
+        </td>
+        <td>
+            Red     <input type="checkbox" name="colors[]" value="red" />
+            Blue    <input type="checkbox" name="colors[]" value="blue" />
+            Yellow  <input type="checkbox" name="colors[]" value="yellow" />
+         </td>
+    </tr>
+    <tr>
+        <td valign="top"><p>What vehicles do you have a license to operate?</p>
+        </td>
+        <td valign="top">
+            <select name="vehicles[]" multiple size="5">
+                <option value="Car">Car</option>
+                <option value="Bus">Bus</option>
+                <option value="Truck">Truck</option>
+                <option value="Plane">Aeroplane</option>
+                <option value="Boat">Boat</option>
+            </select>&nbsp;(Select all that apply; use CTRL-click to select)
+         </td>
+    </tr>
+    <tr>
+        <td valign="top">
+        <p>Please enter your message:</p>
+        </td>
+        <td><textarea name="mesg" rows="10" cols="50"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Submit" /></td>
+        <td></td>
+    </tr>
+    </table>
+</form>
+<!--
+    Please support the ongoing development of FormMail and our other
+    freeware products by keeping the following text on your form
+    (or placing it elsewhere on your website).  Thanks!
+-->
+<small>This form and its 
+<a href="http://www.tectite.com/">form processor</a>
+supplied by www.tectite.com.
+</small>
+</body>
+</html>

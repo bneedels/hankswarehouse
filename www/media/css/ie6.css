@@ -1,0 +1,61 @@
+#seal{
+	background-image: url(../images/seal.png);
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='media/images/seal.png', sizingMethod='scale');
+}
+#logo{
+	background-image: url(../images/logo.png);
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='media/images/logo.png', sizingMethod='scale');
+}
+#phone{
+	background-image: url(../images/phone.png);
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='media/images/phone.png', sizingMethod='scale');
+}
+
+
+
+.m_home a{
+	background-image: url(../images/home.png);
+	background: none;
+	width: 48px;
+	margin: 9px 21px 0 20px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='media/images/home.png', sizingMethod='crop');
+}
+.m_shoponline a{
+	background-image: url(../images/shoponline.png);
+	background: none;
+	width: 100px;
+	margin: 9px 18px 0 19px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='media/images/shoponline.png', sizingMethod='crop');
+}
+.m_blog a{
+	background-image: url(../images/blog.png);
+	background: none;
+	width: 50px;
+	margin: 9px 20px 0 19px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='media/images/blog.png', sizingMethod='crop');
+}
+.m_contactus a{
+	background-image: url(../images/contactus.png);
+	background: none;
+	width: 98px;
+	margin: 9px 16px 0 15px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='media/images/contactus.png', sizingMethod='crop');
+}
+.m_followuson span{
+	background-image: url(../images/followuson.png);
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='media/images/followuson.png', sizingMethod='crop');
+}
+.m_followuson a.twitter{
+	background-image: url(../images/twitter.png);
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='media/images/twitter.png', sizingMethod='crop');
+}
+.m_followuson a.facebook{
+	background-image: url(../images/facebook.png);
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='media/images/facebook.png', sizingMethod='crop');
+}
